@@ -6,6 +6,8 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { primaryNav } from "@/lib/nav";
 import { LanguageSwitch } from "./language-switch";
 import { SearchButton } from "./search-button";
+import { MobileNav } from "./mobile-nav";
+import { ThemeToggle } from "./theme-toggle";
 
 export function SiteHeader() {
   const t = useTranslations("nav");
@@ -41,8 +43,12 @@ export function SiteHeader() {
 
         {/* Actions */}
         <div className="header-actions">
-          <SearchButton />
-          <LanguageSwitch />
+          <ThemeToggle />
+          <div className="hidden md:flex items-center gap-2">
+            <SearchButton />
+            <LanguageSwitch />
+          </div>
+          <MobileNav />
         </div>
       </div>
 

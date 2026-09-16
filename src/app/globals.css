@@ -48,6 +48,22 @@
   }
 }
 
+/* Manual dark mode toggle */
+.dark {
+  --primary: #82c53a;
+  --primary-deep: #5eaa35;
+  --primary-light: #b2dc63;
+  --primary-subtle: #1e3d25;
+  --primary-foreground: #0d160f;
+  --accent: #a8ce3c;
+  --background: #0d160f;
+  --surface: #142018;
+  --surface-raised: #1b2b1e;
+  --ink: #f4f8f1;
+  --ink-muted: #a4b2a5;
+  --border: #344837;
+}
+
 body {
   background: var(--color-background);
   color: var(--color-ink);

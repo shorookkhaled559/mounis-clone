@@ -24,6 +24,7 @@
     "heroDescription": "Mounis is a modern Arabic platform for reflection, hadith, prayer times, zakat calculation, fatwas, and trustworthy daily content.",
     "quickLinks": {
       "prayer": "Prayer Times & Qibla",
+      "hadith": "Hadith",
       "zakat": "Zakat Calculator",
       "thisDay": "On This Day"
     },

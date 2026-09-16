@@ -26,6 +26,7 @@ export function Hero() {
 
   const quickLinks = [
     { key: "prayer", href: "/prayer" },
+    { key: "hadith", href: "/hadith" },
     { key: "zakat", href: "/zakat" },
     { key: "thisDay", href: "/this-day" },
   ] as const;
